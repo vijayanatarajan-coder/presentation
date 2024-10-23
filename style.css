@@ -1,0 +1,222 @@
+.desktop {
+    background-color: #e9f4f2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .desktop .overlap-wrapper {
+    background-color: #e9f4f2;
+    width: 1440px;
+    height: 1200px;
+  }
+  
+  .desktop .overlap {
+    position: relative;
+    width: 1116px;
+    height: 925px;
+    top: 35px;
+    left: 47px;
+  }
+  
+  .desktop .overlap-group {
+    position: absolute;
+    width: 895px;
+    height: 895px;
+    top: 30px;
+    left: 221px;
+  }
+  
+  .desktop .rectangle {
+    position: absolute;
+    width: 637px;
+    height: 629px;
+    top: 133px;
+    left: 129px;
+    background-color: #61c2d0;
+    border-radius: 20px;
+    transform: rotate(134.27deg);
+  }
+  
+  .desktop .div {
+    position: absolute;
+    width: 439px;
+    height: 457px;
+    top: 218px;
+    left: 227px;
+    background-color: #d1edef;
+    transform: rotate(179.63deg);
+  }
+  
+  .desktop .polygon {
+    position: absolute;
+    width: 198px;
+    height: 346px;
+    top: 265px;
+    left: 247px;
+  }
+  
+  .desktop .img {
+    position: absolute;
+    width: 211px;
+    height: 384px;
+    top: 242px;
+    left: 437px;
+  }
+  .desktop .polygon-2 {
+    position: absolute;
+    width: 369px;
+    height: 205px;
+    top: 437px;
+    left: 260px;
+  }
+  .desktop .polygon-3 {
+    position: absolute;
+    width: 384px;
+    height: 203px;
+    top: 234px;
+    left: 244px;
+  }
+  
+  .desktop .text-wrapper {
+    position: absolute;
+    width: 188px;
+    top: 123px;
+    left: 361px;
+    font-family: "Sansita One-Regular", Helvetica;
+    font-weight: 400;
+    color: #e9f4f2;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .text-wrapper-2 {
+    position: absolute;
+    top: 269px;
+    left: 317px;
+    font-family: "Sansita One-Regular", Helvetica;
+    font-weight: 400;
+    color: #212121;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .desktop .text-wrapper-3 {
+    position: absolute;
+    top: 428px;
+    left: 499px;
+    transform: rotate(-88.78deg);
+    font-family: "Sansita One-Regular", Helvetica;
+    font-weight: 400;
+    color: #1a1a1a;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .desktop .text-wrapper-4 {
+    position: absolute;
+    top: 722px;
+    left: 332px;
+    font-family: "Sansita One-Regular", Helvetica;
+    font-weight: 400;
+    color: #e9f4f2;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .text-wrapper-5 {
+    position: absolute;
+    top: 432px;
+    left: 80px;
+    transform: rotate(-88.83deg);
+    font-family: "Sansita One-Regular", Helvetica;
+    font-weight: 400;
+    color: #e9f4f2;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .text-wrapper-6 {
+    position: absolute;
+    top: 422px;
+    left: 649px;
+    transform: rotate(-89.12deg);
+    font-family: "Sansita One-Regular", Helvetica;
+    font-weight: 400;
+    color: #e9f4f2;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .desktop .PROFFESIONAL {
+    position: absolute;
+    top: 428px;
+    left: 158px;
+    transform: rotate(-89.06deg);
+    font-family: "Sansita One-Regular", Helvetica;
+    font-weight: 400;
+    color: #040404;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .desktop .INDIVIDUALS {
+    position: absolute;
+    width: 329px;
+    top: 590px;
+    left: 320px;
+    font-family: "Sansita One-Regular", Helvetica;
+    font-weight: 400;
+    color: #020202;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .center-button {
+    background-color: #61C2D0;
+    color: #fff;
+    border-radius: 50px;
+    border: none;
+    position: absolute;
+    top: 404px;
+    left: 407px;
+    /* font-size: 37px; */
+    padding: 10px;
+    width: 50px;
+  }
+  
+  .desktop .p {
+    position: absolute;
+    width: 307px;
+    top: 0;
+    left: 0;
+    font-family: "Sansita One-Regular", Helvetica;
+    font-weight: 400;
+    color: #242424;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .desktop #rotateContainer {
+    transition: transform 1s ease-in-out; /* Smooth 1-second rotation */
+  }
+  
+  .desktop #rotateContainer.rotate {
+    transform: rotate(360deg); /* Rotate 360 degrees */
+  }
+  
+  
+  

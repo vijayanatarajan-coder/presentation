@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="desktop" id="container">
+      <div class="overlap-wrapper">
+        <div class="overlap">
+          <div class="overlap-group"  id="rotateContainer">
+            <div class="rectangle"></div>
+            <div class="div"></div>
+            <img class="polygon" src="./img/Polygon 23.png" />
+            <img class="img" src="./img/Polygon 24.png" />
+            <img class="polygon-2" src="./img/Polygon 25.png" />
+            <img class="polygon-3" src="./img/Polygon 26.png" />
+            <!-- <button class="center-button"><i class="material-icons">mouse-click</i></button> -->
+            <img class="center-button" id="rotateButton" src="./img/button.png" />
+            <div class="text-wrapper">TECHNICAL SKILLS</div>
+            <div class="text-wrapper-2">COMPANIES STAY UPDATED</div>
+            <div class="text-wrapper-3">OWN VENTURES</div>
+            <div class="text-wrapper-4">NON-TECHNICAL SKILLS</div>
+            <div class="text-wrapper-5">INDIVIDUAL SKILLS</div>
+            <div class="text-wrapper-6">EMERGING SKILLS</div>
+            <div class="PROFFESIONAL">PROFFESIONAL&nbsp;&nbsp;EXPERTISE</div>
+            <div class="INDIVIDUALS">INDIVIDUALS&nbsp;&nbsp;OPPORTUNITIES</div>
+          </div>
+          <p class="p">SKILLS TO EXCEL IN THE INDUSTRY</p>
+        </div>
+      </div>
+    </div>
+    <script>
+        // JavaScript to handle rotation for 1 second and stop
+        document.getElementById('rotateButton').addEventListener('click', function() {
+          const container = document.getElementById('rotateContainer');
+          container.classList.add('rotate'); // Start rotation
+  
+          // Remove the 'rotate' class after 1 second (1000ms)
+          setTimeout(() => {
+            container.classList.remove('rotate');
+          }, 1000); // 1000ms = 1 second
+        });
+      </script>
+  </body>
+</html>
