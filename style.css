@@ -209,6 +209,14 @@
   letter-spacing: 0;
   line-height: normal;
 }
+.svg-icons {
+  width: 10%;
+  padding: 5px;
+  position: absolute;
+  top: 386px;
+  left: 390px;
+  color: #fff;
+}
 
 .desktop #rotateContainer {
   transition: transform 1s ease-in-out; /* Smooth 1-second rotation */
